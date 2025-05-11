@@ -4,8 +4,6 @@ export default async function handler(req, res) {
   }
 
   const { prompt } = req.body;
- // const backendUrl = 'https://chatgptnew-cqp3.onrender.com/process';
-
   const backendUrl = 'https://chatgptnew-cqp3.onrender.com/api/process';
 
   
