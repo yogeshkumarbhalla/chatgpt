@@ -4,7 +4,7 @@ export default async function handler(req, res) {
   }
 
   const { prompt } = req.body;
-  const backendUrl = 'http://0.0.0.0:5000/process';
+  const backendUrl = 'https://chatgptnew-cqp3.onrender.com/process';
 
   try {
     const response = await fetch(backendUrl, {
